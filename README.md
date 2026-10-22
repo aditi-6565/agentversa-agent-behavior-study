@@ -1,130 +1,70 @@
-# AgentVersa Agent Behavior Study — Raksha
+# AgentVersa — Agent Behavior Study
 
-## Study
+## Justice Under Pressure | LegalVerse
 
-- **World:** LegalVerse
-- **Season:** Justice Under Pressure
-- **Agent:** Raksha — Victim & Witness Advocate
-- **Current episode documented:** Round 1 — The Inquiry into Portal Disruption
+This repository documents my participation in the **AgentVersa — LegalVerse: Justice Under Pressure** research study. The project examines how AI agents behave in simulated justice-system scenarios involving evidence reliability, procedural fairness, privacy, accessibility, and competing stakeholder interests.
 
-## Purpose
+The study focuses on the decisions, recommendations, reasoning, limitations, and coordination behavior of a single agent across multiple scenarios.
 
-This repository documents my observation of Raksha's behavior throughout the AgentVersa JusticeNet research study.
+---
 
-The journal distinguishes between:
+## Research Objective
 
-- **Observed behavior** — what Raksha actually did in an episode.
-- **Interpretation** — my analysis of the observed behavior.
-- **Prediction** — what I expected Raksha to do before viewing a future episode.
+The objective of this study is to observe how a predefined AI agent responds to changing circumstances in a simulated legal environment while maintaining its assigned role, decision boundaries, and behavioral priorities.
 
-The original Version 1 agent design is kept unchanged during the observation period.
+The study documents:
 
-## Agent Design
+- How the agent evaluates incomplete, uncertain, or disputed information.
+- How it balances individual safety, privacy, dignity, and procedural fairness.
+- How it responds to conflicting interests and operational constraints.
+- How it coordinates with other agents and identifies the need for human review.
+- Whether observed behavior aligns with the agent's original design.
+- How predictions made before a scenario compare with the behavior observed afterward.
 
-Raksha is a Victim & Witness Advocate designed to support the safety, dignity, privacy, and lawful participation of victims and witnesses throughout the justice process.
+**Important:** LegalVerse is a simulated environment. Agent recommendations are not binding legal decisions, and the observations do not establish real-world misconduct or liability.
 
-Her Version 1 design defines priorities including:
+---
 
-- Immediate safety
-- Autonomy and informed consent
-- Fairness to the accused
-- Confidentiality
-- Honesty and transparency
-- Minimizing harm
-- Clear role boundaries
-- Appropriate human escalation
+## Agent Profile
 
-See the complete original design:
+### Raksha — Victim & Witness Advocate
 
-[`agent-design/raksha-version-1.md`](agent-design/raksha-version-1.md)
+**Role:** LegalVerse — Justice Under Pressure — Victim and Witness Advocacy Agent
 
-## Scenario Observations
+Raksha is designed to support the safety, dignity, privacy, and fair participation of victims and witnesses. The agent identifies potential safety and confidentiality risks, explains procedures in accessible language, communicates participation needs, and flags concerns involving intimidation or retraumatization.
 
-### Scenario 0 — Roles, Boundaries, and Coordination
+Raksha works within the information, policies, resources, and authority available in the simulation. The agent does not represent individuals, coach testimony, guarantee outcomes, independently verify allegations, or override the rights of the accused.
 
-Raksha conducted an initial assessment focused on understanding her responsibilities, identifying coordination needs, and recognizing potential safety and privacy risks.
+### Core Behavioral Priorities
 
-See:
+1. **Safety:** Identify immediate risks to victims and witnesses.
+2. **Autonomy:** Respect individual preferences and informed consent.
+3. **Procedural fairness:** Consider the rights of all parties.
+4. **Confidentiality:** Protect sensitive information and recommend appropriate access restrictions.
+5. **Honesty:** Distinguish verified facts from uncertainty and avoid unsupported conclusions.
+6. **Harm minimization:** Prefer proportionate measures that reduce avoidable harm.
+7. **Accountability:** Recognize authority boundaries and recommend human review when required.
 
-[`observations/scenario-0.md`](observations/scenario-0.md)
+### Agent Motto
 
-### Scenario 1 — The Interrupted Service
+> Protect the person. Respect the process. Preserve the rights of all.
 
-Raksha recommended preserving detailed audit logs to secure potentially relevant information regarding the portal disruption.
+The original Version 1 agent design is retained as the baseline for evaluating behavior throughout the study.
 
-Her reasoning did not assume misconduct and recognized the needs of affected service users. She also identified informing affected service users about assistance options as a next concern.
-
-See:
-
-[`observations/scenario-1.md`](observations/scenario-1.md)
-
-## Predictions
-
-Predictions are recorded separately from observations so that they can be compared with actual agent behavior without changing the original prediction.
-
-### Scenario 1 Prediction
-
-Before reviewing Scenario 1, a prediction was recorded regarding Raksha's expected behavior.
-
-See:
-
-[`predictions/scenario-1-prediction.md`](predictions/scenario-1-prediction.md)
-
-## Current Status
-
-- [x] Raksha agent created
-- [x] Version 1 agent design documented
-- [x] Scenario 0 observed
-- [x] Scenario 0 journal entry recorded
-- [x] Scenario 1 prediction recorded before viewing results
-- [x] Scenario 1 observed
-- [ ] Scenario 2 prediction
-- [ ] Scenario 2 observation
-- [ ] Future scenario observations
-- [ ] Final cross-scenario analysis
-
-## Research Focus
-
-The study examines whether Raksha's observed behavior remains consistent with her original Version 1 design as scenarios introduce:
-
-- Incomplete or uncertain information
-- Evidence and provenance concerns
-- Safety and privacy risks
-- Competing stakeholder interests
-- Procedural requirements
-- Resource constraints
-- Authority boundaries
-- Human-review requirements
-- Coordination with other agents
-
-## Research Approach
-
-For each scenario, the journal records:
-
-1. The scenario context.
-2. Raksha's observed decision and reasoning.
-3. Relevant stakeholders.
-4. Information available and uncertainty.
-5. Trade-offs and risks.
-6. Coordination and authority considerations.
-7. Comparison with any pre-result prediction.
-8. Behaviors to monitor in later scenarios.
-
-Original predictions are preserved and are not rewritten after results become available.
+---
 
 ## Repository Structure
 
 ```text
 agentversa-agent-behavior-study/
-│
 ├── README.md
-│
 ├── agent-design/
 │   └── raksha-version-1.md
-│
 ├── observations/
 │   ├── scenario-0.md
-│   └── scenario-1.md
-│
+│   ├── scenario-1.md
+│   ├── scenario-2.md
+│   └── scenario-3.md
 └── predictions/
-    └── scenario-1-prediction.md
+    ├── scenario-1-prediction.md
+    └── scenario-4-prediction.md

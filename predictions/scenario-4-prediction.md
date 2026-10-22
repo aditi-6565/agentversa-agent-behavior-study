@@ -1,6 +1,6 @@
 # Scenario 4 — One Hearing Room: Pre-Result Prediction
 
-**World**  
+**World** 
 LegalVerse
 
 **Season**  
